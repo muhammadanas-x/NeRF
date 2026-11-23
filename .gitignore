@@ -1,0 +1,43 @@
+# Downloaded NeRF dataset
+/nerf_synthetic/
+
+# Training checkpoints and default render outputs
+*.pth
+*.pt
+*.ckpt
+/renders/
+/rendered_views/
+/nerf_orbit.mp4
+/nerf_orbit_depth.mp4
+/nerf_single.png
+/nerf_single_depth.png
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# C++ and CUDA build outputs
+/build/
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+/sobol_bmma
+
+# Local editor and OS files
+/.vscode/
+.DS_Store
+Thumbs.db
